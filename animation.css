@@ -1,0 +1,156 @@
+/* win animation */
+
+.enter-to-right{
+    animation: enter-to-right 4s ease-in-out;
+}
+
+@keyframes enter-to-right {
+    0% {
+        left: -10%;
+        top: 150%;
+    }
+    15% {
+        left: 10%;
+        top: 150%;
+    }
+    60%{
+        left: 90%;
+        top: 150%;
+    }
+    100%{
+        left: 90%;
+        top: 5250%;
+    }
+}
+
+.enter-to-left{
+    animation: enter-to-left 4s ease-in-out;
+}
+
+@keyframes enter-to-left {
+    0% {
+        left: 110%;
+        top: 150%;
+    }
+    15% {
+        left: 90%;
+        top: 150%;
+    }
+    60%{
+        left: 10%;
+        top: 150%;
+    }
+    100%{
+        left: 10%;
+        top: 150%;
+    }
+
+}
+
+/* lose animation */
+
+.enter-to-right-lose{
+    animation: enter-to-right-lose 4s ease-in-out;
+}
+
+@keyframes enter-to-right-lose {
+    0% {
+        left: -10%;
+        top: 150%;
+    }
+    15% {
+        left: 10%;
+        top: 150%;
+    }
+    60%{
+        left: 90%;
+        top: 150%;
+    }
+    100%{
+        left: 90%;
+        top: 150%;
+    }
+}
+
+.enter-to-left-lose{
+    animation: enter-to-left-lose 4s ease-in-out;
+}
+
+@keyframes enter-to-left-lose {
+    0% {
+        left: 110%;
+        top: 150%;
+    }
+    15% {
+        left: 90%;
+        top: 150%;
+    }
+    60%{
+        left: 10%;
+        top: 150%;
+    }
+    100%{
+        left: 10%;
+        top: 5250%;
+    }
+
+}
+
+/* shield animation */
+
+.enter-to-right-shield{
+    animation: enter-to-right-lose 4s ease-in-out;
+}
+
+@keyframes enter-to-right-lose {
+    0% {
+        left: -10%;
+        top: 150%;
+    }
+    15% {
+        left: 10%;
+        top: 150%;
+    }
+    30%{
+        left: 50%;
+        top: 150%;
+    }
+    60%{
+        left: 10%;
+        top: 150%;
+    }
+    100%{
+        left: 10%;
+        top: 150%;
+    }
+}
+
+
+
+.enter-to-left-shield{
+    animation: enter-to-left-lose 4s ease-in-out;
+}
+
+@keyframes enter-to-left-lose {
+    0% {
+        left: 110%;
+        top: 150%;
+    }
+    15% {
+        left: 90%;
+        top: 150%;
+    }
+    30%{
+        left: 50%;
+        top: 150%;
+    }
+    60%{
+        left: 90%;
+        top: 150%;
+    }
+    100%{
+        left: 90%;
+        top: 150%;
+    }
+
+}

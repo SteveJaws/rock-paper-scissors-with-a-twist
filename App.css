@@ -1,0 +1,261 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/beach.jpeg);
+  background-size: cover;
+}
+
+.animation-background{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.buttons{
+  width: 100%;
+  height: 70%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  width: 100%;
+  height: 30%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top{
+  width: 100%;
+  height: 25%;
+  background-color: transparent;
+}
+
+.enemy-face-cam{
+  width: 30%;
+  height: 40%;
+  background-color: purple;
+  position: absolute;
+  top: -20%;
+  left: 35%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enemy-face{
+  width: 120px;
+  height: 130px;
+  position: relative;
+  top: 25%;
+}
+
+.enemy-health{
+  width: 20%;
+  height: 10%;
+  background-color: white;
+  position: relative;
+  left: 40%;
+  top: 90%;
+}
+
+.health-bar{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.middle{
+  width: 100%;
+  height: 40%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.power-up-table{
+  width: 30%;
+  height: 90%;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+
+  /* hide scroll bar */
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+  /* hide scroll bar */
+
+.power-up-table::-webkit-scrollbar {
+  display: none;
+}
+
+.power-up{
+  width: 90px;
+  height: 25%;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  transition: all 0.2s ease-in-out;
+}
+
+.power-up:hover{
+  transition: all 0.2s ease-in-out;
+  scale: 1.1;
+  cursor: pointer;
+}
+
+#double{
+  background-image: url(./assets/double.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#shield{
+  background-image: url(./assets/shield.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#heal{
+  background-image: url(./assets/medicine_bottle.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bottom{
+  width: 100%;
+  height: 35%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards{
+  width: 200px;
+  height: 90%;
+  margin: 5%;
+  border-radius: 5px;
+  border: 2px solid black;
+  transition: all 0.2s ease-in-out;
+}
+
+.cards:hover{
+  transition: all 0.2s ease-in-out;
+  scale: 1.1;
+  cursor: pointer;
+}
+
+#rock{
+  background-image: url(./assets/rock2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#paper{
+  background-image: url(./assets/paper2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#scissors{
+  background-image: url(./assets/scissor2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.player-health{
+  width: 17%;
+  height: 2.5%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  rotate: 90deg;
+  margin-right: -6%;
+}
+
+.player-health-bar{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+/* animation css */
+
+.animation-starter{
+  display: none;
+}
+
+.animation-starter-lose{
+  display: none;
+}
+
+.animation-starter-shield{
+  display: none;
+}
+
+.enemy-card{
+  width: 200px;
+  height: 350px;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  top: 150%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.player-card{
+  width: 200px;
+  height: 350px;
+  border-radius: 5px;
+  background-color: green;
+  position: absolute;
+  top: 150%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.rock{
+  background-image: url(./assets/rock2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.scissors{
+  background-image: url(./assets/scissor2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.paper{
+  background-image: url(./assets/paper2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
